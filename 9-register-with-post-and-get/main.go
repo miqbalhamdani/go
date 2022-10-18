@@ -1,8 +1,8 @@
 package main
 
 import (
+	service "golang-web-service/9-register-with-post-and-get/services"
 	"net/http"
-	service "session-1/9-register-with-post-and-get/services"
 )
 
 func main() {

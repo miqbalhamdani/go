@@ -1,3 +1,3 @@
-module session-1
+module golang-web-service
 
 go 1.19

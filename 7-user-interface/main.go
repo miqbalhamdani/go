@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"session-1/7-user-interface/services"
+	"golang-web-service/7-user-interface/services"
 )
 
 func main() {

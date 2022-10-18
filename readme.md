@@ -19,6 +19,6 @@
 
 ### Function Struct
 
-1. [Function](/docs/session-3/s3-function.md)
-2. [Closure](/docs/session-3/s3-closure.md)
+1. [Function](/docs/session-3/function.md)
+2. [Closure](/docs/session-3/closure.md)
 3.
