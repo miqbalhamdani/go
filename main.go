@@ -1,23 +1,22 @@
 package main
 
 import (
-	"fmt"
+	"log"
+
+	"golang-web-service/server"
+
+	_ "github.com/joho/godotenv/autoload"
 )
 
+// @title Mygram API
+// @version 1.0
+// @description MyGram API for Final Project Scalable Web Service with Golang by Hacktiv8
+
+// @BasePath /
+
 func main() {
-  var evenNumbers = func(n ...int) []int {
-    var result []int
-
-    for _, v := range n {
-      if v % 2 == 0 {
-        result = append(result, v)
-      }
-    }
-
-    return result
-  }
-
-  var numbers = []int{4, 93, 77, 10, 52, 22, 34}
-
-  fmt.Println(evenNumbers(numbers...)) // [4, 52, 22, 34]
+	err := server.Start()
+	if err != nil {
+		log.Fatal(err)
+	}
 }
